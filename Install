@@ -11,7 +11,7 @@ Hardware Requirements
 4GB RAM
 40GB Hard Disk
 
-Allow Port
+FIREWALL ALLOW
 ------------------------------------
 su -root
 ufw allow 22,25,143,80,443,3306,3022,8000/tcp
@@ -40,10 +40,6 @@ sudo apt install python3.10-venv -y
 sudo apt-get update -y
 sudo apt-get install xvfb libfontconfig wkhtmltopdf -y
 
-   FIREWALL
--------------------
-sudo ufw allow 22,143,80,443,3306,3022,8000/tcp
-sudo ufw enable
 
 FIREWALL RULES FOR UBUNTU IN OCI IP TABLES:
 -------------------------------------------------
